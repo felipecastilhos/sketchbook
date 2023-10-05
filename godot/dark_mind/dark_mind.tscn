@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx2nye5e4trmy"]
+
+[ext_resource type="Script" path="res://DrawLayer.gd" id="2_hrlsh"]
+
+[node name="DarkMind" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 1078.0
+offset_bottom = 1081.0
+color = Color(0.439216, 0.345098, 0.486275, 1)
+
+[node name="DrawLayer" type="Node2D" parent="."]
+script = ExtResource("2_hrlsh")

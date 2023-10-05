@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx2nye5e4trmy"]
+
+[ext_resource type="Script" path="res://DarkMind.gd" id="1_qflkm"]
+
+[node name="DarkMind" type="Node2D"]
+script = ExtResource("1_qflkm")
+numCircles = null
+minRadius = null
+maxRadius = null
+colors = null
