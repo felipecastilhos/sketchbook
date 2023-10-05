@@ -2,7 +2,7 @@
 This a repository to all my digital art code experiments. 
 
 ### How to run
-- Open the .pde files in Processing IDE and run it.
+Inside each folder, you will find the README how to run the project.
 
-### Dependencies
-- All code here works with Processing 4.
+### Project Structure
+This is a monorepo of all my experiments. It's organized by techonology.
