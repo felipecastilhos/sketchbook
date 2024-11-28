@@ -5,7 +5,7 @@ extends Node2D
 @export var maxRadius : int = 20
 @export var colors : Array = [0x261c15ff, 0xfaf0caff, 0xf694c1ff, 0xe4e6c3ff]
 
-var colorPallet = [0x]
+var colorPallet = [0xffffffff]
 
 var screen_size = Vector2(1080,1080)
 var rng = RandomNumberGenerator.new()
@@ -15,7 +15,7 @@ func _ready():
 	rng.randomize()  
 	generateCircles()
 
-func _process(delta):
+func _process(_delta):
 	generateCircles()
 	queue_redraw()
 

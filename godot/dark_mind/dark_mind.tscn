@@ -11,3 +11,7 @@ color = Color(0.439216, 0.345098, 0.486275, 1)
 
 [node name="DrawLayer" type="Node2D" parent="."]
 script = ExtResource("2_hrlsh")
+numCircles = null
+minRadius = null
+maxRadius = null
+colors = null
