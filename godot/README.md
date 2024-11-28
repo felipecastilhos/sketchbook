@@ -5,4 +5,4 @@
 - Open the Godot project in Godot.
 
 ### Dependencies
-- All code here works with Godot 4.
+- All code here works with Godot 4.3.
